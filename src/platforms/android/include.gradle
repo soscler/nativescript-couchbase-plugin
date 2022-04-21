@@ -9,6 +9,7 @@
         jcenter()
         maven {
             url "http://mobile.maven.couchbase.com/maven2/dev/"
+            allowInsecureProtocol = true
         }
     }
 dependencies {
